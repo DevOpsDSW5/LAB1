@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="d-flex flex-column justify-content-center align-items-center" style="min-height:60vh;">
+    <div class="mb-4 text-center">
+        <h1 class="display-4">Universidad de Chiriquí</h1>
+        
+        <div class="mt-4">
+            <h2 class="h4" style="color:#B22222;">Facultad de Economía</h2>
+            <p>
+                La Facultad de Economía de la Universidad de Chiriquí se dedica a la formación de profesionales íntegros y comprometidos con el desarrollo económico y social de la región y el país. Ofrece programas académicos de alta calidad, promoviendo la investigación, el pensamiento crítico y la responsabilidad ética en el ámbito económico.
+            </p>
+        </div>
+
+
+
+
+        <p class="lead">
+            Nos complace informar que están disponibles diversos diplomados orientados al fortalecimiento profesional y académico. Explora nuestras opciones y potencia tu desarrollo en áreas clave de la gestión pública y el liderazgo.
+        </p>
+    </div>
+
+    <img src="~/imagen/4e9e68e5-a77b-41d9-b36f-9c534b4635ca.png" alt="Diplomado" class="img-fluid mb-4" style="max-width:200px;" />
+
+    <div class="d-flex flex-column flex-md-row gap-3">
+        <a class="btn btn-unachi-red btn-lg" href="~/PDFs/Diplomado1.pdf" role="button">Diplomado de Gobernabilidad, Gerencia Política y Gestión Pública</a>
+        <a class="btn btn-unachi-green btn-lg" href="~/PDFs/Diplomado2.pdf" role="button">Diplomado de Liderazgo para la transformación</a>
+        <a class="btn btn-unachi-blue btn-lg" asp-controller="Home" asp-action="MisionVision" role="button">Mision y vision</a>
+    </div>
+</div>
